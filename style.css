@@ -2,13 +2,90 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
 }
 
 :root {
   font-size: 62.5%;
+
+  --paragraph-color: #69251b;
+  --title-color: #c9c2c2;
 }
 
 body {
   font-size: 1.6rem;
   background-color: rgb(34, 33, 33);
+  color: var(--title-color);
+}
+
+main {
+  display: grid;
+  place-content: center;
+  margin: 3rem;
+}
+
+section {
+  text-align: center;
+}
+
+.top {
+  margin-bottom: 4rem;
+  padding: 3rem;
+}
+
+.top {
+  border-bottom: 1px solid black;
+}
+
+.first-text {
+  margin-bottom: 6.4rem;
+}
+
+h1, h2, p, em {
+  text-align: start;
+}
+
+h1 {
+  font-size: 3.6rem;
+  margin-bottom: 4rem;
+}
+
+h2 {
+  font-size: 3.2rem;
+  margin-bottom: .8rem;
+}
+
+p {
+  color: var(--paragraph-color);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+em {
+  display: block;
+  padding: 2rem;
+}
+
+.card {
+  border-bottom: 1px solid black;
+  margin-bottom: 3rem;
+}
+
+img {
+  border-radius: 2.8rem;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+strong {
+  text-align: center;
+  display: block;
+  margin-bottom: 6.5rem;
+}
+
+footer {
+  display: block;
+  text-align: center;
+  font-size: 2.4rem;
+  padding: 2.4rem;
 }
